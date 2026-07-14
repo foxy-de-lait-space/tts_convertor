@@ -4,7 +4,7 @@ import os
 import rich.progress
 from faster_whisper import WhisperModel
 import zipfile
-
+#petit commentaire pour les fouine
 model = WhisperModel("tiny", device="cpu")
 def format_to_id(id:int,size:int=6):
     return ("0"*(size-len(str(id))))+str(id)
